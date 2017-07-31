@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //salam monaaaaaa
+        //the second salam to mona
     }
 }
