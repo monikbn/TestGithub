@@ -2,9 +2,11 @@ package com.mona.testgithub;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -12,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         //salam monaaaaaa
         //the second salam to mona
+        textView = (TextView) findViewById(R.id.textView1);
+        textView.setText("salam kachal");
     }
 }
