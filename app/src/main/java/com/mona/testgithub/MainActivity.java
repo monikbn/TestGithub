@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         //salam monaaaaaa
         //the second salam to mona
         textView = (TextView) findViewById(R.id.textView1);
-        textView.setText("salam kachal");
+        textView.setText("salam kachall");
     }
 }
